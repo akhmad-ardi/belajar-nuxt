@@ -1,0 +1,38 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --host",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@types/bcrypt": "^5.0.0",
+    "@types/js-cookie": "^3.0.3",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "autoprefixer": "^10.4.15",
+    "daisyui": "^3.6.4",
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "nuxt": "^3.7.0",
+    "postcss": "^8.4.29",
+    "prettier": "^3.0.3",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "bcrypt": "^5.1.1",
+    "joi": "^17.10.1",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.0",
+    "nuxt-mongoose": "^0.0.9"
+  }
+}
